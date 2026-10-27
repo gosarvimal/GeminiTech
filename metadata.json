@@ -3,5 +3,8 @@
   "description": "Configure application goals, inputs, outputs, validation, styling, and deliverables to generate professional AI coding prompts.",
   "capabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
   ]
 }

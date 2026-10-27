@@ -8,6 +8,7 @@ import { LibrariesSection } from './components/LibrariesSection';
 import { DesignSection } from './components/DesignSection';
 import { DeliverablesSection } from './components/DeliverablesSection';
 import { PromptSection } from './components/PromptSection';
+import { GeminiChatbot } from './components/GeminiChatbot';
 import {
   AppState,
   InputFieldData,
@@ -514,6 +515,8 @@ export const App: React.FC = () => {
           onReset={handleReset}
         />
       </div>
+
+      <GeminiChatbot appDraft={state} />
     </main>
   );
 };
